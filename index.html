@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://fav.farm/✏️" />
+    <script src="./index.js" defer></script>
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div class="website">
+        <div class="heading">
+            <h1>Start drawing</h1>
+        </div>
+        <div class = "content">
+            <div class="controls">
+                <div class="slidecontainer">
+                    <input type="range" min="2" max="50" value="16" class="slider" id="myRange" oninput="rangeValue.innerText = this.value">
+                    <p id="rangeValue">16</p>
+                  </div>
+                <button id="creator" class="create" role="button">CREATE GRID</button>
+            </div>
+            <div class="grid_container">
+            </div>
+        </div>
+        <div class="footer">
+            <p>by Zenyi Gomez</p>
+        </div>
+    </div>
+</body>
+</html>
