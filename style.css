@@ -29,9 +29,27 @@ body{
     background-color: #749BC2;
 }
 
-.red{
+.og{
     background-color: #749BC2;
 }
+
+.color{
+    background-color: #3C9EE7;
+}
+
+.color1{
+    background-color: #E7993C;
+}
+
+.color2{
+    background-color: #E73C99;
+}
+
+.color3{
+    background-color: #3CE746;
+
+}
+
 
 .controls {
     display: flex;

@@ -22,8 +22,8 @@ function createGrid(size){
     }
 }
 
-let color = [, "#3C9EE7", "#E7993C",
-            "#E73C99", "#3CE746", "#E7993C"];
+let color = [ "og", "color",
+            "color1", "color2", "color3"];
 
 
 
@@ -39,7 +39,8 @@ gridder.addEventListener('click', () => {
 
     for (let i = 0; i < elems.length; i++) {
         elems[i].addEventListener("mouseover", function() {
-        elems[i].classList.toggle("red");
+            let x = Math.floor(Math.random() * 5);
+            elems[i].classList.toggle(color[x]);
         });
     }
 });
